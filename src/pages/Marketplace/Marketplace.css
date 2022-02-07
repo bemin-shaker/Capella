@@ -1,0 +1,167 @@
+.Marketplace {
+  background-color: #f7f8fc;
+}
+
+.map-h2 {
+  text-transform: uppercase;
+  font-size: 1rem;
+  padding: 20px;
+  padding-left: 10px;
+  text-align: center;
+}
+
+.marker-container {
+  margin: 0 0 0 0;
+  text-align: center;
+  padding: 15px;
+  color: #01203a;
+}
+
+#markerName {
+  font-weight: 600;
+}
+.marker-container button {
+  padding: 10px 15px;
+  margin-top: 4px;
+}
+
+.gm-style-iw-d {
+  overflow: visible !important;
+}
+
+.gm-style-iw {
+  padding: 0 0 0 0 !important;
+}
+
+#map {
+  max-width: 98.5%;
+  max-height: 70vh;
+  margin-bottom: 20px;
+}
+
+.gmnoprint div {
+  visibility: hidden;
+}
+
+#markerName,
+#markerAddress {
+  max-width: 100%;
+}
+
+h2 {
+  color: white;
+}
+
+h1 {
+  position: absolute;
+  top: 0.75rem;
+  left: 4rem;
+  z-index: 10;
+  margin: 2;
+  padding: 2;
+}
+
+.search {
+  position: absolute;
+  top: 5rem;
+  left: 260px;
+  width: 100%;
+  max-width: 300px;
+  z-index: 10;
+}
+
+.search input {
+  padding: 0.5rem;
+  font-style: normal;
+  font-size: 1.5rem;
+  background-color: #01203a;
+  border-color: #01203a;
+  border-width: 0;
+  width: 100%;
+}
+
+.locate {
+  position: absolute;
+  top: 4.9rem;
+  right: 2.2rem;
+  background: #e89c35;
+  border: none;
+  z-index: 10;
+  padding: 10px 14px 10px 14px;
+}
+
+.locate:hover {
+  background-color: #01203a;
+}
+
+.locate img {
+  width: 30px;
+  cursor: pointer;
+}
+
+Marker {
+  filter: drop-shadow(0px 0px 15px #000000) !important;
+}
+
+@media (max-width: 1024px) {
+  .google-map {
+    height: 80vh;
+  }
+
+  #map {
+    max-width: 100vw;
+  }
+
+  .section-titles {
+    font-size: 15px;
+  }
+
+  h1 {
+    position: absolute;
+    top: 0.9rem;
+    left: 3.5rem;
+    z-index: 10;
+    margin: 0.5;
+    padding: 0.5;
+    font-size: smaller;
+  }
+
+  .locate {
+    position: absolute;
+    top: 4.9rem;
+    right: 1rem;
+    background: #e89c35;
+    border: none;
+    z-index: 10;
+  }
+
+  .locate img {
+    width: 30px;
+    cursor: pointer;
+  }
+
+  .search {
+    position: absolute;
+    top: 5rem;
+    left: 15px;
+
+    width: 100%;
+    max-width: 200px;
+    z-index: 10;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .search {
+    position: absolute;
+    top: 5rem;
+    left: 10px;
+    width: 100%;
+    max-width: 200px;
+    z-index: 10;
+  }
+
+  .section-titles {
+    font-size: 20px !important;
+  }
+}
